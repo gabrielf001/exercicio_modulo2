@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validção</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>VALIDAÇÃO</h1>
+        <h2>Formulario</h2>
+        <form >
+            <input type="number" id="num1" required placeholder="Insira o valor de 'A'">
+            <input type="number" id="num2" required placeholder="Insira o valor de 'B'">
+            <p class="error-messenger">
+                O valor de B deve ser maior que A
+            </p>
+            <button type="submit">Validar</button>
+            <p class="sucess-messenger">
+                Formulario enviado com sucesso!
+            </p>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
