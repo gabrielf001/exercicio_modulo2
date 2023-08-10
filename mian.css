@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1280px;
+    background-color: rgba(152, 162, 177, 0.981) ;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    margin-top: 24px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+header img{
+    max-width: 40px;
+}
+header h1{
+    margin-left: 12px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Handjet', cursive;
+    text-align: center;
+}
+header button{
+    border: none;
+    height: 25px;
+    padding: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius:5px;
+    margin-left: 50px;
+    background-color: rgb(30, 30, 206);
+    color: #fff;
+}
+header button:hover{
+    background-color: rgb(11, 11, 99) ;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#cancel{
+    background-color: rgb(235, 52, 52);
+    margin-left: 10px;
+}
+#cancel:hover{
+    background-color:rgb(158, 10, 10) ;
+    transition: 0.3s;
+}
+.addtarefa{
+    display: none;
+    max-width: 780px;
+    margin: 0 auto;
+    
+}
+
+.addtarefa h2{
+    text-align: start;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.addtarefa form{
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#tarefa{
+    max-width: 480px;
+    width: 100%;
+}
+
+.addtarefa form input::placeholder{
+    color: #000000cb;
+    font-size: 11px;
+    font-weight: bold;
+    
+}
+.addtarefa form input{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.716) ;
+}
+.addtarefa form button{
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 5px;
+}
+.addtarefa form label{
+    background-color:rgba(255, 255, 255, 0.716) ;
+    padding: 3px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.addtarefa form button:hover{
+    background-color: rgb(60, 60, 60);
+    cursor: pointer;
+    transition: 0.3s;
+}
+ul{
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 40px;
+}
+ul li{
+    padding: 8px;
+}
+ul li p{
+    text-decoration: none;
+    color: #000000cb;
+    font-weight: bold;
+    
+}
+ul li p:hover{
+    cursor: pointer;
+}
+ul {
+    list-style-type: style;
+
+}
+
+
+

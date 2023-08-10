@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="pt-br">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./mian.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>        
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="./imagens/lista-de-afazeres.png" alt="">
+        <h1>Lista de tarefas</h1>
+        <button type="submit">Nova tarefa+</button>
+    </header>
+    <div id="fomu" class="addtarefa">
+        <h2>Adicionar tarefa à lista</h2>
+        <form>
+            <input type="text" id="tarefa" required placeholder="Tarefa...">
+            <label>Tempo estimado:</label>
+            <input type="time" id="timee">
+            <button type="submit">Adicionar</button>
+            <button type="reset" id="cancel" >Cancelar</button>
+        </form>
+    </div>
+    <ul>
+        <li>
+            <p >Praticar HTML criando uma página simples - 00:40 </p>
+        </li>
+        <li>
+            <p>Praticar CSS aplicando estilos à página criada - 00:30</p>
+        </li>
+        <li>
+            <p>	Aprender os conceitos básicos de JavaScript - 00:40</p>
+        </li>
+        
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
